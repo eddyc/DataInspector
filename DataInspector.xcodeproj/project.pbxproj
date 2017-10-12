@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4441A55B1AFE555900090923 /* libWebSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4441A5551AFE547400090923 /* libWebSocket.dylib */; };
+		4441A55C1AFE555F00090923 /* libWebSocket.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4441A5551AFE547400090923 /* libWebSocket.dylib */; };
+		44500AD51AE536640004F713 /* DataInspector_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44500AD41AE536640004F713 /* DataInspector_Tests.m */; };
+		44500ADC1AE536720004F713 /* libhdf5.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44500AD91AE536720004F713 /* libhdf5.9.dylib */; };
+		44500ADE1AE536720004F713 /* libwebsockets.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44500ADA1AE536720004F713 /* libwebsockets.dylib */; };
+		44500AF01AE536F30004F713 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 44500AEA1AE536F30004F713 /* main.c */; };
+		44500B081AE54BAA0004F713 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 44500AF81AE54BAA0004F713 /* index.html */; };
+		44500B0C1AE54BAA0004F713 /* require.js in Resources */ = {isa = PBXBuildFile; fileRef = 44500AFF1AE54BAA0004F713 /* require.js */; };
+		44500B0D1AE54BAA0004F713 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 44500B001AE54BAA0004F713 /* main.js */; };
+		44500B0E1AE54BAA0004F713 /* Matrix.js in Resources */ = {isa = PBXBuildFile; fileRef = 44500B011AE54BAA0004F713 /* Matrix.js */; };
+		446695391AF7D2B800A11364 /* Transceiver.c in Sources */ = {isa = PBXBuildFile; fileRef = 446ECDF01AEA86980043B42A /* Transceiver.c */; };
+		4466953A1AF7D2BD00A11364 /* libhdf5.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44500AD91AE536720004F713 /* libhdf5.9.dylib */; };
+		4466953B1AF7D2BF00A11364 /* libwebsockets.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44500ADA1AE536720004F713 /* libwebsockets.dylib */; };
+		446695681AF7DF4100A11364 /* libMatrix.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 446695671AF7DF3100A11364 /* libMatrix.dylib */; };
+		446695691AF7DF8600A11364 /* libMatrix.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 446695671AF7DF3100A11364 /* libMatrix.dylib */; };
+		446ECDF31AEA86980043B42A /* Transceiver.c in Sources */ = {isa = PBXBuildFile; fileRef = 446ECDF01AEA86980043B42A /* Transceiver.c */; };
+		44E6411F1AED6559002708D5 /* TableView.css in Resources */ = {isa = PBXBuildFile; fileRef = 44E6411E1AED6559002708D5 /* TableView.css */; };
+		44E641231AED7202002708D5 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 44E641221AED7202002708D5 /* main.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4441A5541AFE547400090923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4441A5501AFE547400090923 /* WebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4441A5401AFE527D00090923;
+			remoteInfo = WebSocket;
+		};
+		446695661AF7DF3100A11364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 446695621AF7DF3100A11364 /* Matrix.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 446695451AF7D50E00A11364;
+			remoteInfo = Matrix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4428FCF31AE5581200D01CD5 /* Transceiver.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Transceiver.js; sourceTree = "<group>"; };
+		4441A5501AFE547400090923 /* WebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WebSocket.xcodeproj; path = ../WebSocket/WebSocket.xcodeproj; sourceTree = "<group>"; };
+		44500AD01AE536640004F713 /* DataInspector Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DataInspector Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44500AD31AE536640004F713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44500AD41AE536640004F713 /* DataInspector_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataInspector_Tests.m; sourceTree = "<group>"; };
+		44500AD91AE536720004F713 /* libhdf5.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libhdf5.9.dylib; path = /usr/local/Cellar/hdf5/1.8.14/lib/libhdf5.9.dylib; sourceTree = "<absolute>"; };
+		44500ADA1AE536720004F713 /* libwebsockets.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libwebsockets.dylib; path = /usr/local/Cellar/libwebsockets/1.3/lib/libwebsockets.dylib; sourceTree = "<absolute>"; };
+		44500AE91AE536F30004F713 /* CommonDSP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonDSP.h; path = NativeSource/CommonDSP.h; sourceTree = SOURCE_ROOT; };
+		44500AEA1AE536F30004F713 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = NativeSource/main.c; sourceTree = SOURCE_ROOT; };
+		44500AF81AE54BAA0004F713 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		44500AFF1AE54BAA0004F713 /* require.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = require.js; sourceTree = "<group>"; };
+		44500B001AE54BAA0004F713 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		44500B011AE54BAA0004F713 /* Matrix.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Matrix.js; sourceTree = "<group>"; };
+		446695341AF7D29400A11364 /* libDataInspector.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libDataInspector.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		446695621AF7DF3100A11364 /* Matrix.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Matrix.xcodeproj; path = ../Matrix/Matrix.xcodeproj; sourceTree = "<group>"; };
+		446ECDF01AEA86980043B42A /* Transceiver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Transceiver.c; path = NativeSource/Transceiver.c; sourceTree = SOURCE_ROOT; };
+		446ECDF11AEA86980043B42A /* Transceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transceiver.h; path = NativeSource/Transceiver.h; sourceTree = SOURCE_ROOT; };
+		44A962DA1AF00C4300E5BA53 /* TableView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = TableView.js; sourceTree = "<group>"; };
+		44A962DB1AF00C5200E5BA53 /* GridView.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = GridView.js; sourceTree = "<group>"; };
+		44E6411E1AED6559002708D5 /* TableView.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = TableView.css; path = BrowserSource/css/TableView.css; sourceTree = SOURCE_ROOT; };
+		44E641221AED7202002708D5 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = main.css; path = BrowserSource/css/main.css; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44500ACD1AE536640004F713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4441A55C1AFE555F00090923 /* libWebSocket.dylib in Frameworks */,
+				446695691AF7DF8600A11364 /* libMatrix.dylib in Frameworks */,
+				44500ADE1AE536720004F713 /* libwebsockets.dylib in Frameworks */,
+				44500ADC1AE536720004F713 /* libhdf5.9.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446695311AF7D29400A11364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4441A55B1AFE555900090923 /* libWebSocket.dylib in Frameworks */,
+				446695681AF7DF4100A11364 /* libMatrix.dylib in Frameworks */,
+				4466953A1AF7D2BD00A11364 /* libhdf5.9.dylib in Frameworks */,
+				4466953B1AF7D2BF00A11364 /* libwebsockets.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4441A5511AFE547400090923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4441A5551AFE547400090923 /* libWebSocket.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44500AB91AE531910004F713 = {
+			isa = PBXGroup;
+			children = (
+				44C428FD1AFBB8FC00B202D7 /* Dependancies */,
+				44500ADF1AE5367F0004F713 /* Libraries */,
+				44500AF51AE54BAA0004F713 /* BrowserSource */,
+				44500AC41AE531910004F713 /* NativeSource */,
+				44500AD11AE536640004F713 /* DataInspector Tests */,
+				44500AC31AE531910004F713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44500AC31AE531910004F713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44500AD01AE536640004F713 /* DataInspector Tests.xctest */,
+				446695341AF7D29400A11364 /* libDataInspector.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44500AC41AE531910004F713 /* NativeSource */ = {
+			isa = PBXGroup;
+			children = (
+				44500AE91AE536F30004F713 /* CommonDSP.h */,
+				44500AEA1AE536F30004F713 /* main.c */,
+				446ECDF01AEA86980043B42A /* Transceiver.c */,
+				446ECDF11AEA86980043B42A /* Transceiver.h */,
+			);
+			name = NativeSource;
+			path = DataInspector;
+			sourceTree = "<group>";
+		};
+		44500AD11AE536640004F713 /* DataInspector Tests */ = {
+			isa = PBXGroup;
+			children = (
+				44500AD41AE536640004F713 /* DataInspector_Tests.m */,
+				44500AD21AE536640004F713 /* Supporting Files */,
+			);
+			path = "DataInspector Tests";
+			sourceTree = "<group>";
+		};
+		44500AD21AE536640004F713 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44500AD31AE536640004F713 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44500ADF1AE5367F0004F713 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				44500AD91AE536720004F713 /* libhdf5.9.dylib */,
+				44500ADA1AE536720004F713 /* libwebsockets.dylib */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		44500AF51AE54BAA0004F713 /* BrowserSource */ = {
+			isa = PBXGroup;
+			children = (
+				44500AF81AE54BAA0004F713 /* index.html */,
+				44E641211AED69DF002708D5 /* css */,
+				44500AF91AE54BAA0004F713 /* js */,
+			);
+			path = BrowserSource;
+			sourceTree = "<group>";
+		};
+		44500AF91AE54BAA0004F713 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				44500AFD1AE54BAA0004F713 /* libs */,
+				44500B001AE54BAA0004F713 /* main.js */,
+				4428FCF31AE5581200D01CD5 /* Transceiver.js */,
+				44500B011AE54BAA0004F713 /* Matrix.js */,
+				44A962DB1AF00C5200E5BA53 /* GridView.js */,
+				44A962DA1AF00C4300E5BA53 /* TableView.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		44500AFD1AE54BAA0004F713 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				44500AFE1AE54BAA0004F713 /* requirejs */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		44500AFE1AE54BAA0004F713 /* requirejs */ = {
+			isa = PBXGroup;
+			children = (
+				44500AFF1AE54BAA0004F713 /* require.js */,
+			);
+			path = requirejs;
+			sourceTree = "<group>";
+		};
+		446695631AF7DF3100A11364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				446695671AF7DF3100A11364 /* libMatrix.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C428FD1AFBB8FC00B202D7 /* Dependancies */ = {
+			isa = PBXGroup;
+			children = (
+				4441A5501AFE547400090923 /* WebSocket.xcodeproj */,
+				446695621AF7DF3100A11364 /* Matrix.xcodeproj */,
+			);
+			name = Dependancies;
+			sourceTree = "<group>";
+		};
+		44E641211AED69DF002708D5 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				44E6411E1AED6559002708D5 /* TableView.css */,
+				44E641221AED7202002708D5 /* main.css */,
+			);
+			name = css;
+			path = js;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		446695321AF7D29400A11364 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44500ACF1AE536640004F713 /* DataInspector Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44500AD61AE536640004F713 /* Build configuration list for PBXNativeTarget "DataInspector Tests" */;
+			buildPhases = (
+				44500ACC1AE536640004F713 /* Sources */,
+				44500ACD1AE536640004F713 /* Frameworks */,
+				44500ACE1AE536640004F713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DataInspector Tests";
+			productName = "DataInspector Tests";
+			productReference = 44500AD01AE536640004F713 /* DataInspector Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		446695331AF7D29400A11364 /* DataInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 446695351AF7D29400A11364 /* Build configuration list for PBXNativeTarget "DataInspector" */;
+			buildPhases = (
+				446695301AF7D29400A11364 /* Sources */,
+				446695311AF7D29400A11364 /* Frameworks */,
+				446695321AF7D29400A11364 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataInspector;
+			productName = DataInspector;
+			productReference = 446695341AF7D29400A11364 /* libDataInspector.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44500ABA1AE531910004F713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Edward Costello";
+				TargetAttributes = {
+					44500ACF1AE536640004F713 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					446695331AF7D29400A11364 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 44500ABD1AE531910004F713 /* Build configuration list for PBXProject "DataInspector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44500AB91AE531910004F713;
+			productRefGroup = 44500AC31AE531910004F713 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 446695631AF7DF3100A11364 /* Products */;
+					ProjectRef = 446695621AF7DF3100A11364 /* Matrix.xcodeproj */;
+				},
+				{
+					ProductGroup = 4441A5511AFE547400090923 /* Products */;
+					ProjectRef = 4441A5501AFE547400090923 /* WebSocket.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				44500ACF1AE536640004F713 /* DataInspector Tests */,
+				446695331AF7D29400A11364 /* DataInspector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4441A5551AFE547400090923 /* libWebSocket.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libWebSocket.dylib;
+			remoteRef = 4441A5541AFE547400090923 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		446695671AF7DF3100A11364 /* libMatrix.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libMatrix.dylib;
+			remoteRef = 446695661AF7DF3100A11364 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44500ACE1AE536640004F713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44500B081AE54BAA0004F713 /* index.html in Resources */,
+				44500B0C1AE54BAA0004F713 /* require.js in Resources */,
+				44E641231AED7202002708D5 /* main.css in Resources */,
+				44E6411F1AED6559002708D5 /* TableView.css in Resources */,
+				44500B0E1AE54BAA0004F713 /* Matrix.js in Resources */,
+				44500B0D1AE54BAA0004F713 /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44500ACC1AE536640004F713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44500AF01AE536F30004F713 /* main.c in Sources */,
+				446ECDF31AEA86980043B42A /* Transceiver.c in Sources */,
+				44500AD51AE536640004F713 /* DataInspector_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		446695301AF7D29400A11364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446695391AF7D2B800A11364 /* Transceiver.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44500AC71AE531910004F713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		44500AC81AE531910004F713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		44500AD71AE536640004F713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "DataInspector Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/hdf5/1.8.14/lib,
+					/usr/local/Cellar/libwebsockets/1.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Matrix/src\" \"$(SRCROOT)/../WebSocket/src\"";
+			};
+			name = Debug;
+		};
+		44500AD81AE536640004F713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = "DataInspector Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/hdf5/1.8.14/lib,
+					/usr/local/Cellar/libwebsockets/1.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Matrix/src\" \"$(SRCROOT)/../WebSocket/src\"";
+			};
+			name = Release;
+		};
+		446695361AF7D29400A11364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/hdf5/1.8.14/lib,
+					/usr/local/Cellar/libwebsockets/1.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Matrix/src\" \"$(SRCROOT)/../WebSocket/src\"";
+			};
+			name = Debug;
+		};
+		446695371AF7D29400A11364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/hdf5/1.8.14/lib,
+					/usr/local/Cellar/libwebsockets/1.3/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../Matrix/src\" \"$(SRCROOT)/../WebSocket/src\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44500ABD1AE531910004F713 /* Build configuration list for PBXProject "DataInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44500AC71AE531910004F713 /* Debug */,
+				44500AC81AE531910004F713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44500AD61AE536640004F713 /* Build configuration list for PBXNativeTarget "DataInspector Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44500AD71AE536640004F713 /* Debug */,
+				44500AD81AE536640004F713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		446695351AF7D29400A11364 /* Build configuration list for PBXNativeTarget "DataInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446695361AF7D29400A11364 /* Debug */,
+				446695371AF7D29400A11364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44500ABA1AE531910004F713 /* Project object */;
+}
